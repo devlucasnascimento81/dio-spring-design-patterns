@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
  * Estratégia concreta para clientes do plano PREMIUM: concede 20% de desconto.
  */
 @Component
-public interface PremiumDiscountStrategy implements DiscountStrategy{
+public class PremiumDiscountStrategy implements DiscountStrategy{
 
     @Override
     public String getMembershipType() {

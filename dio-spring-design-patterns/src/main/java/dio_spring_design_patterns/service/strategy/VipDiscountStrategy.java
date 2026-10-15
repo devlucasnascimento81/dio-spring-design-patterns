@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
  * Estratégia concreta para clientes do plano VIP: concede 10% de desconto.
  */
 @Component
-public interface VipDiscountStrategy implements DiscountStrategy{
+public class VipDiscountStrategy implements DiscountStrategy{
 
     @Override
     public String getMembershipType() {

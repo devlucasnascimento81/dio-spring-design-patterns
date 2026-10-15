@@ -1,4 +1,4 @@
-package dio_spring_design_patterns.repository;
+package dio_spring_design_patterns.service;
 
 import dio_spring_design_patterns.model.Address;
 import org.springframework.cloud.openfeign.FeignClient;

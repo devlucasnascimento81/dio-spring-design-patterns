@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
  */
 
 @Component
-public interface StandardDiscountStrategy implements DiscountStrategy {
+public class StandardDiscountStrategy implements DiscountStrategy {
 
     @Override
     public String getMembershipType() {
